@@ -40,10 +40,17 @@ pkgincludedir = $(includedir)/whatmask
 
 top_builddir = .
 
+<<<<<<< HEAD
 ACLOCAL = /Users/bwillia/source/whatmask/missing aclocal
 AUTOCONF = /Users/bwillia/source/whatmask/missing autoconf
 AUTOMAKE = /Users/bwillia/source/whatmask/missing automake
 AUTOHEADER = /Users/bwillia/source/whatmask/missing autoheader
+=======
+ACLOCAL = aclocal
+AUTOCONF = autoconf
+AUTOMAKE = automake
+AUTOHEADER = autoheader
+>>>>>>> FETCH_HEAD
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
