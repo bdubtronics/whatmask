@@ -1,0 +1,79 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:560: checking for a BSD compatible install
+configure:613: checking whether build environment is sane
+configure:670: checking whether make sets ${MAKE}
+configure:716: checking for working aclocal
+configure:729: checking for working autoconf
+configure:742: checking for working automake
+configure:755: checking for working autoheader
+configure:768: checking for working makeinfo
+configure:784: checking for gcc
+configure:897: checking whether the C compiler (gcc  ) works
+configure:913: gcc -o conftest    conftest.c  1>&5
+configure:910:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^~~~
+1 warning generated.
+configure:939: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:944: checking whether we are using GNU C
+configure:953: gcc -E conftest.c
+configure:972: checking whether gcc accepts -g
+configure:1015: checking for a BSD compatible install
+configure:1069: checking how to run the C preprocessor
+configure:1090: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1149: checking for ANSI C header files
+configure:1162: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1229: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1224:67: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                  ^
+configure:1224:67: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+configure:1253: checking for size_t
+configure:1317: checking size of unsigned short
+configure:1336: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1327:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^~~~
+configure:1330:11: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+  if (!f) exit(1);
+          ^
+configure:1330:11: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+configure:1331:22: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+  fprintf(f, "%d\n", sizeof(unsigned short));
+              ~~     ^~~~~~~~~~~~~~~~~~~~~~
+              %lu
+3 warnings generated.
+configure:1356: checking size of unsigned int
+configure:1375: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1366:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^~~~
+configure:1369:11: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+  if (!f) exit(1);
+          ^
+configure:1369:11: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+configure:1370:22: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+  fprintf(f, "%d\n", sizeof(unsigned int));
+              ~~     ^~~~~~~~~~~~~~~~~~~~
+              %lu
+3 warnings generated.
+configure:1395: checking size of unsigned long
+configure:1414: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1405:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^~~~
+configure:1408:11: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+  if (!f) exit(1);
+          ^
+configure:1408:11: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+configure:1409:22: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+  fprintf(f, "%d\n", sizeof(unsigned long));
+              ~~     ^~~~~~~~~~~~~~~~~~~~~
+              %lu
+3 warnings generated.
+configure:1437: checking for locale.h
+configure:1447: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1497: gcc -o conftest -g -O2   conftest.c  1>&5
